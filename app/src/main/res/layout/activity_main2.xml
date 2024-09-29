@@ -33,6 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:backgroundTint="@color/azulPrincipal"
         android:orientation="horizontal">
 
         <androidx.appcompat.widget.AppCompatRadioButton
@@ -40,6 +41,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:buttonTint="@color/azulPrincipal"
+            android:backgroundTint="@color/azulPrincipal"
             android:text="Feminino" />
 
         <androidx.appcompat.widget.AppCompatRadioButton

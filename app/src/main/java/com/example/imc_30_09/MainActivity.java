@@ -40,9 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(this, MainActivity2.class);
                 startActivity(intent);
             }else{
-
                 textResultadoErro.setText("Por Favor Digite seus Dados Corretamente...");
-
             }
         });
 

@@ -31,7 +31,8 @@ public class MainActivity3 extends AppCompatActivity {
         Bundle bundle = getIntent().getExtras();
         if (bundle != null) {
             String resultado = bundle.getString("resultado");
-            String resul = "Resultado IMC:\n" + resultado;
+            String nome = bundle.getString("nome");
+            String resul = nome + "\n" + resultado;
             textResultadoImc.setText(resul);
         }
 

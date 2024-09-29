@@ -154,7 +154,7 @@ public class MainActivity2 extends AppCompatActivity {
             }
         }
 
-        btncalc.setOnClickListener(View ->{
+
             //Converter os dados Peso e altura em numerico e calcula imc
             Double numPeso = Double.parseDouble(peso);
             Double numAltura = Double.parseDouble(altura);
@@ -201,11 +201,12 @@ public class MainActivity2 extends AppCompatActivity {
 
             Intent intent = new Intent(this, MainActivity3.class);
             intent.putExtra("resultado", resultadoTexto);
+            intent.putExtra("nome", nome);
             startActivity(intent);
 
             resultado1.setText("");
             textErro.setText("");
-        });
+
 
     }
 
